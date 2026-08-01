@@ -1,0 +1,8 @@
+{
+  "name": "VibeAudio",
+  "description": "Browser-first audiobook shelf with synced progress, chapter playback, saved moments, and immersive listening.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

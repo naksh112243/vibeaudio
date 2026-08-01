@@ -1,0 +1,60 @@
+{
+  "name": "VibeAudio — Calm Audiobook Companion",
+  "short_name": "VibeAudio",
+  "description": "Distraction-free, mobile-first audiobook web application with offline playback.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0d14",
+  "theme_color": "#0a0d14",
+  "orientation": "any",
+  "categories": ["books", "entertainment", "audio"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Library",
+      "short_name": "Library",
+      "description": "Open your audiobook bookshelf",
+      "url": "/?view=library",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Search Catalog",
+      "short_name": "Search",
+      "description": "Find new audiobooks",
+      "url": "/?view=search",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Offline Downloads",
+      "short_name": "Downloads",
+      "description": "Access offline audiobooks",
+      "url": "/?view=downloads",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
